@@ -1,5 +1,6 @@
 "use strict";
 var core_1 = require("@angular/core");
+/// component additional imports
 var common = require("./shared");
 var HomeViewComponent = (function () {
     /// component additional properties
@@ -9,6 +10,15 @@ var HomeViewComponent = (function () {
         this._service = _service;
         /// component constructor method
     }
+    Object.defineProperty(HomeViewComponent.prototype, "title", {
+        get: function () {
+            var result = "Home View";
+            /// component custom title
+            return result;
+        },
+        enumerable: true,
+        configurable: true
+    });
     HomeViewComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

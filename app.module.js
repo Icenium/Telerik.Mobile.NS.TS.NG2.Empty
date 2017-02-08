@@ -2,8 +2,10 @@
 var core_1 = require("@angular/core");
 var platform_1 = require("nativescript-angular/platform");
 var router_1 = require("nativescript-angular/router");
+/// additional imports
 var app_routes_1 = require("./app.routes");
 var app_component_1 = require("./app.component");
+/// additional required modules
 var drawer_module_1 = require("./navigation/drawer/drawer.module");
 var AppModule = (function () {
     function AppModule() {

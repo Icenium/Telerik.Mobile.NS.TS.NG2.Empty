@@ -11,6 +11,7 @@ import {
     NativeScriptRouterModule
 }
 from "nativescript-angular/router";
+/// additional imports
 
 import {
     appRoutes
@@ -20,6 +21,8 @@ import {
     AppComponent
 }
 from "./app.component";
+
+/// additional required modules
 
 import {
     DrawerMenuModule as NavigationModule
