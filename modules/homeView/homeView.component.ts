@@ -4,6 +4,8 @@ import {
 }
 from "@angular/core";
 
+/// component additional imports
+
 import * as common from "./shared";
 import * as shared from "../../shared";
 
@@ -15,14 +17,17 @@ Component({
         /// component definitions
 })
 
-// START_CUSTOM_CODE_homeView
-// Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes
-
-// END_CUSTOM_CODE_homeView
 export class HomeViewComponent
 /// component inheritance
 {
-    /// component additional properties
+    get title() {
+            let result: string = "Home View";
+
+            /// component custom title
+
+            return result;
+        }
+        /// component additional properties
     constructor(
             /// component constructor dependencies
             private _service: common.HomeViewService
