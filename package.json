@@ -41,6 +41,6 @@
     "tslint": "3.14.0",
     "typescript": "2.0.10",
     "zone.js": "0.7.2",
-    "nativescript-dev-android-snapshot": "0.0.6"
+    "nativescript-dev-android-snapshot": "0.0.7"
   }
 }
